@@ -29,7 +29,7 @@
   top: 74px;
   right: 10px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 0.6rem;
   width: fit-content;
   margin: 0 auto;
