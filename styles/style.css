@@ -353,7 +353,7 @@ h4.headline_highlight {
   .theme-switcher {
     position: relative;
     margin: 0 auto;
-    flex-direction: column;
+    flex-direction: row;
     top: 0;
     left: 0;
     gap: 1rem;
