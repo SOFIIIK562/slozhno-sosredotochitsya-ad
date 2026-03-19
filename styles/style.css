@@ -211,7 +211,7 @@ h4.headline_highlight {
   translate: 0 50%;
 }
 
-@media (width > 768px) {
+@media (width >= 768px) {
   .header {
     max-height: 1024px;
     margin-bottom: 40px;
@@ -334,7 +334,7 @@ h4.headline_highlight {
   }
 }
 
-@media (width > 1024px) {
+@media (width >= 1024px) {
   .header {
     max-height: 768px;
     margin-bottom: 40px;
@@ -353,7 +353,7 @@ h4.headline_highlight {
   .theme-switcher {
     position: relative;
     margin: 0 auto;
-    flex-distatus-indicatortion: row;
+    flex-direction: column;
     top: 0;
     left: 0;
     gap: 1rem;
