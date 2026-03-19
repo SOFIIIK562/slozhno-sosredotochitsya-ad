@@ -55,7 +55,6 @@
 }
 
 .header__title {
-  margin-top: min(40vh, calc(1024px*0.4));
   margin-top: clamp(100px, 31.8vh, 0.325 * 1024px);
   margin-bottom: 0;
   margin-left: 4px;
@@ -65,7 +64,6 @@ h1.title-huge, h2.title-huge  {
   color: var(--title-fill);
   font-weight: 700;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  font-style: Bold;
   line-height: 83%;
   text-shadow: 4px 4px 0 var(--highlight-color);
 }
@@ -85,7 +83,6 @@ h3.headline_highlight {
   color: var(--inverse-text);
   font-weight: 700;
   font-size: 18px;
-  font-style: Bold;
   line-height: 23px;
   background-color: var(--highlight-color);
 }
